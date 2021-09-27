@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/activity_create" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@+id/tvv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create a Teacher" android:fontFamily="cursive"/>
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" android:ems="10" android:inputType="textPersonName"/>
+        <Button android:id="@+id/btnGenerate" android:visibility="gone" android:layout_width="99dp" android:layout_height="wrap_content" android:text="Generate" android:onClick="create"/>
+        <EditText android:id="@+id/etcUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username" android:ems="10" android:inputType="textPersonName"/>
+        <EditText android:id="@+id/etcPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="text"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:id="@+id/tvValid" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:fontFamily="serif-monospace"/>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <Button android:textColor="#fff" android:id="@+id/btnCancel" android:background="@drawable/negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="Cancel" android:onClick="create"/>
+            <Button android:id="@+id/btnSave" android:background="@drawable/radius" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="Save" android:onClick="create"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group4.mabuhayelms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MabuhayELMS">
+        <activity android:name="com.group4.mabuhayelms.MainActivity"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/title_activity_student" android:name="com.group4.mabuhayelms.Student"/>
+        <activity android:name="com.group4.mabuhayelms.HomeworkList"/>
+        <activity android:name="com.group4.mabuhayelms.Homework"/>
+        <activity android:name="com.group4.mabuhayelms.StudentCT"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/title_activity_teacher" android:name="com.group4.mabuhayelms.Teacher"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/title_activity_admin" android:name="com.group4.mabuhayelms.Admin"/>
+        <activity android:name="com.group4.mabuhayelms.List"/>
+        <activity android:name="com.group4.mabuhayelms.Create"/>
+        <activity android:name="com.group4.mabuhayelms.ListT"/>
+        <activity android:name="com.group4.mabuhayelms.Submitted"/>
+        <activity android:name="com.group4.mabuhayelms.NewClasses"/>
+        <activity android:name="com.group4.mabuhayelms.NewHomework"/>
+        <activity android:name="com.group4.mabuhayelms.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

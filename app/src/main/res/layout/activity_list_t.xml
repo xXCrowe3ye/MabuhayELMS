@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/activity_list_t" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:id="@+id/tvList" android:layout_width="35dp" android:layout_height="wrap_content" android:text="List" android:layout_weight="1" android:fontFamily="cursive"/>
+            <Button android:textSize="25sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/btnNew" android:background="@drawable/plus" android:layout_width="35dp" android:layout_height="35dp" android:text="+" android:onClick="process1" android:fontFamily="serif-monospace"/>
+        </LinearLayout>
+        <ListView android:id="@+id/lvList2" android:layout_width="match_parent" android:layout_height="333dp" android:listSelector="@color/colorAccent" android:divider="@color/colorPrimary" android:dividerHeight="2dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/classes" android:id="@+id/nav_camera1" android:title="Classes"/>
+        <item android:icon="@drawable/homework" android:id="@+id/nav_gallery1" android:title="Homework"/>
+        <item android:icon="@drawable/logout" android:id="@+id/nav_slideshow1" android:title="Logout"/>
+    </group>
+</menu>
